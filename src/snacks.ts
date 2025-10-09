@@ -6,4 +6,4 @@ export function printSnacks(): void {
     });
 }
 
-printSnacks();
+// printSnacks();
