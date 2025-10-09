@@ -5,5 +5,5 @@ export function animateFeatureName(featureName: string): void {
     const RESET = '\x1b[0m'; // Reset formatting
     const styledName = `${BOLD_START}${featureName}${RESET}`;
 
-    console.log(`\n✨${styledName} is now running!✨`);
+    console.log(`\n${styledName} is now running!`);
 }
