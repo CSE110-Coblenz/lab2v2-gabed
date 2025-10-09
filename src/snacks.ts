@@ -1,9 +1,9 @@
-let snacks: string[] = ["apple", "cucumbre", "gummies"]
+let snackNames: string[] = [`Nerds`, `Pop-rocks`, `Cheetohs`];
 
 export function printSnacks(): void {
-    snacks.forEach((snack: string) => {
-    console.log(snack);
-    });
+  snackNames.forEach((snack, index) => {
+    console.log(`  ${index + 1}. ${snack}`);
+  });
 }
 
 printSnacks();
