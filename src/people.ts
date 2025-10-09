@@ -1,9 +1,9 @@
-let snacks: string[] = ["apple", "cucumbre", "gummies"]
+let people: string[] = ["Lebron", "Bronny", "Savannah"];
 
-export function printSnacks(): void {
-    snacks.forEach((snack: string) => {
+export function printPeople(): void {
+    people.forEach((snack: string) => {
     console.log(snack);
     });
 }
 
-printSnacks();
+printPeople();
