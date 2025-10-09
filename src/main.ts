@@ -1,4 +1,3 @@
-import {printSnacks} from "./snacks.ts"
+import { printPeople } from './people'; 
 
-console.log("this will cause a conflict");
-printSnacks();
+printPeople(); 

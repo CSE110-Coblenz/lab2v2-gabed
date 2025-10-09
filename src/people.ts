@@ -6,4 +6,4 @@ export function printPeople(): void {
     });
 }
 
-printPeople();
+//printPeople();
