@@ -1,4 +1,4 @@
-let snacks: string[] = ["bannana", "cucumbre", "gummies", "cheetohs"]
+let snacks: string[] = ["bannana", "cucumbre", "gummies", "cheetohs", "potato chips"]
 
 export function printSnacks(): void {
     snacks.forEach((snack: string) => {
