@@ -1,8 +1,8 @@
-import { printPeople } from './people'; 
-import { animateFeatureName } from './animation'; 
-import { printDrinks } from './drinks';
+import { printPeople } from "./people";
+import { animateFeatureName } from "./animation";
+import { printDrinks } from "./drinks";
 
 animateFeatureName(`people`);
-printPeople(); 
+printPeople();
 animateFeatureName(`drinks`);
 printDrinks();

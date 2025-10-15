@@ -1,9 +1,9 @@
-let drinks: string[] = ["soda", "water", "coke"]
+export let drinks: string[] = ["soda", "water", "coke"];
 
 export function printDrinks(): void {
-    drinks.forEach((drink: string) => {
+  drinks.forEach((drink: string) => {
     console.log(drink);
-    });
+  });
 }
 
 printDrinks();
