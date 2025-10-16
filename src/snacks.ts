@@ -1,11 +1,6 @@
 export let snacks: string[] = [
   "bannana",
-  "cucumbre",
-  "gummies",
-  "cheetohs",
-  "potato chips",
-  "chocolate",
-  "candy",
+  "cucumbre"
 ];
 
 export function printSnacks(): void {
